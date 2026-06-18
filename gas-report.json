@@ -1,0 +1,92 @@
+[
+  {
+    "operation": "Deploy MockUSDC",
+    "gasUsed": "916855",
+    "status": "Success"
+  },
+  {
+    "operation": "Deploy IdentityRegistry",
+    "gasUsed": "1095178",
+    "status": "Success"
+  },
+  {
+    "operation": "Grant COMPLIANCE_ROLE",
+    "gasUsed": "52029",
+    "status": "Success"
+  },
+  {
+    "operation": "Deploy SecurityToken",
+    "gasUsed": "2198713",
+    "status": "Success"
+  },
+  {
+    "operation": "Deploy FundraisingContract",
+    "gasUsed": "1343436",
+    "status": "Success"
+  },
+  {
+    "operation": "Deploy DividendDistributor",
+    "gasUsed": "1354023",
+    "status": "Success"
+  },
+  {
+    "operation": "Deploy RedemptionManager",
+    "gasUsed": "1408641",
+    "status": "Success"
+  },
+  {
+    "operation": "Grant ISSUER to Fundraising",
+    "gasUsed": "52068",
+    "status": "Success"
+  },
+  {
+    "operation": "Grant ISSUER to Redemption",
+    "gasUsed": "52068",
+    "status": "Success"
+  },
+  {
+    "operation": "KYC: setVerificationStatus",
+    "gasUsed": "95151",
+    "status": "Success"
+  },
+  {
+    "operation": "Mint 5000 USDC to investor",
+    "gasUsed": "68899",
+    "status": "Success"
+  },
+  {
+    "operation": "Approve USDC for Fundraising",
+    "gasUsed": "47240",
+    "status": "Success"
+  },
+  {
+    "operation": "Approve USDC for DividendDistributor",
+    "gasUsed": "47240",
+    "status": "Success"
+  },
+  {
+    "operation": "contribute: инвестирование 1000 USDC",
+    "gasUsed": "161419",
+    "status": "Success"
+  },
+  {
+    "operation": "Mint 100 USDC to owner",
+    "gasUsed": "51787",
+    "status": "Success"
+  },
+  {
+    "operation": "Approve USDC for DividendDistributor",
+    "gasUsed": "46892",
+    "status": "Success"
+  },
+  {
+    "operation": "distributeDividends: 100 USDC",
+    "gasUsed": "91364",
+    "status": "Success"
+  },
+  {
+    "operation": "claim: получение дивидендов",
+    "gasUsed": "72987",
+    "status": "Success"
+  }
+]
