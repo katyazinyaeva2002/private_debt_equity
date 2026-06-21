@@ -47,8 +47,8 @@ async function main() {
     securityToken.address, mockUSDC.address
   ]);
 
-  // 6. Redemption Manager (maturity = +30 дней)
-  const maturityDate = Math.floor(Date.now() / 1000) + (30 * 24 * 60 * 60);
+  // 6. Redemption Manager (maturity = +30 дней (закомиченно). Для теста стоит на 1 час назад)
+  const maturityDate = Math.floor(Date.now() / 1000) - 3600; // + (30 * 24 * 60 * 60);
   const redemptionManager = await deploy("RedemptionManager", [
     securityToken.address, mockUSDC.address, maturityDate, ethers.parseUnits("1", 6)
   ]);

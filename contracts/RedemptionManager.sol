@@ -23,6 +23,7 @@ contract RedemptionManager is AccessControl, ReentrancyGuard {
         maturityDate = _maturityDate;
         redemptionPrice = _redemptionPrice;
         _grantRole(ADMIN_ROLE, msg.sender);
+        isCallable = true;
     }
 
     function triggerCall() external onlyRole(ADMIN_ROLE) {
@@ -42,7 +43,7 @@ contract RedemptionManager is AccessControl, ReentrancyGuard {
         securityToken.burn(address(this), _amount); 
     
         // 3. Рассчитываем и выплачиваем сумму
-        uint256 payout = (_amount * redemptionPrice) / 1e18;
+        uint256 payout = _amount * redemptionPrice;
         require(paymentToken.balanceOf(address(this)) >= payout, "RedemptionManager: Insufficient funds (DEFAULT)");
         paymentToken.transfer(msg.sender, payout);
         emit TokenRedeemed(msg.sender, _amount, payout);
