@@ -25,6 +25,7 @@ npx hardhat run scripts/deploy.js --network amoy
 	📁 Адреса сохранены в deployed-addresses.json
 
 1. Пройти KYC
+	
 	👤 Подключены как: 0x9623bB6BE12DC4bF9E564200331fD094b8D90962
 	💰 Баланс: 0.279676467495254905 POL
 	
@@ -46,6 +47,7 @@ npx hardhat run scripts/deploy.js --network amoy
 
 
 2. Инвестировать 1000 USDC
+	
 	👤 Подключены как: 0x9623bB6BE12DC4bF9E564200331fD094b8D90962
 	💰 Баланс: 0.276419097488414428 POL
 
@@ -73,6 +75,7 @@ npx hardhat run scripts/deploy.js --network amoy
 
 
 3. Распределить дивиденды 50 USDC
+	
 	👤 Подключены как: 0x9623bB6BE12DC4bF9E564200331fD094b8D90962
 	💰 Баланс: 0.267411567469498615 POL
 
@@ -94,6 +97,7 @@ npx hardhat run scripts/deploy.js --network amoy
 
 
 4. Получить дивиденды (claim)
+	
 	👤 Подключены как: 0x9623bB6BE12DC4bF9E564200331fD094b8D90962
 	💰 Баланс: 0.262211967458579455 POL
 	
@@ -114,6 +118,7 @@ npx hardhat run scripts/deploy.js --network amoy
 
 
 5. Активировать погашение (triggerCall) - ОШИБКА, так как triggerCall активна при isCall = true устанавлеемым в RedemptionManager
+	
 	👤 Подключены как: 0x9623bB6BE12DC4bF9E564200331fD094b8D90962
 	💰 Баланс: 0.259241157452340754 POL
 
@@ -135,6 +140,7 @@ npx hardhat run scripts/deploy.js --network amoy
 	❌ Ошибка: execution reverted: "RedemptionManager: Not callable"
 
 6. Погасить токены
+	
 	👤 Подключены как: 0x9623bB6BE12DC4bF9E564200331fD094b8D90962
 	💰 Баланс: 0.259241157452340754 POL
 
@@ -157,6 +163,7 @@ npx hardhat run scripts/deploy.js --network amoy
 	🔗 https://amoy.polygonscan.com/tx/0xd7eace2ffacfb775ccdf7a364dec5fa56189bfc5ad063912373d270e2e266f0f
 
 7. Попытка погашения токена
+	
 	👤 Подключены как: 0x9623bB6BE12DC4bF9E564200331fD094b8D90962
 	💰 Баланс: 0.253680327440713564 POL
 
@@ -179,7 +186,8 @@ npx hardhat run scripts/deploy.js --network amoy
 	⚠️ Неожиданно: транзакция прошла!
 
 8. Выход
-    👤 Подключены как: 0x9623bB6BE12DC4bF9E564200331fD094b8D90962
+    
+	👤 Подключены как: 0x9623bB6BE12DC4bF9E564200331fD094b8D90962
     💰 Баланс: 0.253680327440713564 POL
 
     📋 МЕНЮ ДЕМОНСТРАЦИИ СИСТЕМЫ ТОКЕНИЗАЦИИ
